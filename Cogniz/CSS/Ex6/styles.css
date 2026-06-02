@@ -1,0 +1,24 @@
+nav ul{
+    list-style:none;
+}
+
+nav li{
+    padding:15px;
+    margin:5px;
+}
+
+a:link{
+    color:white;
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:active{
+    color:red;
+}
+
+a:visited{
+    color:white;
+}
