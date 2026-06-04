@@ -1,0 +1,23 @@
+nav ul{
+    display:flex;
+}
+
+.galleryImg{
+    width:180px;
+}
+
+@media(max-width:768px){
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    .galleryImg{
+        width:100px;
+    }
+
+    body{
+        font-size:14px;
+    }
+
+}

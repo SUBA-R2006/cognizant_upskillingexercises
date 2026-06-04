@@ -1,0 +1,31 @@
+<input type="text"
+       id="phone"
+       placeholder="Phone Number"
+       onblur="validatePhone()">
+
+<select id="eventType"
+        onchange="showFee()">
+
+    <option value="">Select Event</option>
+    <option value="Music">Music</option>
+    <option value="Sports">Sports</option>
+
+</select>
+
+<p id="feeDisplay"></p>
+
+<button onclick="confirmRegistration()">
+    Register
+</button>
+
+<img src="event1.jpg"
+     class="galleryImg"
+     ondblclick="this.style.width='300px'">
+
+<textarea id="feedback"
+          placeholder="Enter Feedback"></textarea>
+
+<p>
+    Characters :
+    <span id="charCount">0</span>
+</p>
