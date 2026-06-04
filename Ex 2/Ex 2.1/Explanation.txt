@@ -1,0 +1,27 @@
+CSS Folder
+
+The CSS folder contains Bootstrap's styling files. These files provide pre-designed styles for web page elements such as buttons, forms, tables, navigation bars, cards, and layouts.
+
+bootstrap.css – Readable, uncompressed version used for development.
+bootstrap.min.css – Minified version used in production for faster loading.
+JS Folder
+
+The JS folder contains Bootstrap's JavaScript files that enable interactive components.
+
+Examples of components that require JavaScript:
+
+Dropdown menus
+Modals
+Carousels
+Accordions
+Tooltips
+
+Files:
+
+bootstrap.js – Standard JavaScript file.
+bootstrap.min.js – Minified version.
+bootstrap.bundle.js – Includes Bootstrap JavaScript and Popper.js.
+bootstrap.bundle.min.js – Minified bundle version recommended for production.
+Icons
+
+Bootstrap Icons are a separate icon library provided by Bootstrap. They can be used to add visual symbols such as search, home, user, and notification icons to web pages.
